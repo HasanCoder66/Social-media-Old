@@ -1,0 +1,193 @@
+/* Media querry */
+@media screen and (max-width:992) {
+    .container {
+
+        justify-content: space-around;
+        flex-direction: row;
+        align-content: center;
+        /* justify-content: center; */
+    }
+
+    .fb-col {
+        margin-left: 100px;
+        width: 50%;
+        /* padding-left: 40px; */
+    }
+
+    /* ye coloumn facebook ki img wala first box banaya hai !Start f */
+    #logo img {
+        width: 250px;
+        height: 125px;
+        /* padding-top: 52px 0px 0px 0px; */
+    }
+
+
+    .heading h2 {
+        /* padding: -5px ;  */
+        /* font-weight: 10px; */
+        font-size: 25px;
+    }
+
+    /* ye coloumn facebook ki img wala  abi iska @end */
+
+
+}
+
+
+.data-entry {
+    width: 300px;
+}
+
+.forget-pass {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#account {
+    /* color: red; */
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:600) {
+    .container {
+        /* height: 100vh; */
+        margin: 0px 0;
+        justify-content: space-around;
+        flex-direction: row;
+        align-content: center;
+        /* justify-content: center; */
+    }
+
+    .fb-col {
+        width: 50%;
+    }
+
+    /* ye coloumn facebook ki img wala first box banaya hai !Start f */
+    #logo img {
+        width: 150px;
+        height: 75px;
+        /* padding-top: 52px 0px 0px 0px; */
+    }
+
+
+    .heading h2 {
+
+        font-size: 25px;
+    }
+
+    /* ye coloumn facebook ki img wala  abi iska @end */
+
+
+    .data-entry-col {
+        background-color: beige;
+        box-shadow: indigo;
+    }
+
+    .data-entry {
+        width: 300px;
+    }
+
+    .forget-pass {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    #account {
+        /* color: red; */
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width:400) {
+    .container {
+        /* height: 100vh; */
+        margin: 0px 0;
+        justify-content: space-around;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    .fb-col {
+        width: 50%;
+    }
+
+    /* ye coloumn facebook ki img wala first box banaya hai !Start f */
+    #logo img {
+        width: 75px;
+        height: 50px;
+    }
+
+    .heading h2 {
+
+        font-size: 15px;
+    }
+
+    /* ye coloumn facebook ki img wala  abi iska @end */
+
+
+    .data-entry-col {
+        background-color: beige;
+        box-shadow: indigo;
+    }
+
+    .data-entry {
+        width: 300px;
+    }
+
+    .forget-pass {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    #account {
+        /* color: red; */
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:300) {
+    .container {
+        /* height: 100vh; */
+        margin: 0px 0;
+        justify-content: space-around;
+        flex-direction: row;
+        align-content: center;
+        /* justify-content: center; */
+    }
+
+    /* ye coloumn facebook ki img wala first box banaya hai !Start f */
+    #logo img {
+        width: 75px;
+        height: 50px;
+        /* padding-top: 52px 0px 0px 0px; */
+    }
+
+    .heading h2 {
+        /* padding: -5px ;  */
+        /* font-weight: 10px; */
+        font-size: 15px;
+    }
+
+    /* ye coloumn facebook ki img wala  abi iska @end */
+
+
+    .data-entry {
+        width: 300px;
+    }
+
+    .forget-pass {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    #account {
+        /* color: red; */
+        text-align: center;
+    }
+
+}
